@@ -1,0 +1,36 @@
+{
+    "name": "catalog-react",
+    "short_name": "catalog-react",
+    "description": "Catalog of NFT/AI/WEB3 products, experimental creative project (React, Redux, TypeScript).",
+    "display": "minimal-ui",
+    "start_url": "/",
+    "id": "/",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "icons": [
+        {
+            "src": "favicon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "favicon-192_maskable.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "favicon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "favicon-512_maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}

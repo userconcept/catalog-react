@@ -1,0 +1,28 @@
+@import '../../assets/styles/mixins.scss';
+
+.Title {
+    line-height: 1.5;
+    font-weight: 700;
+
+    &_small {
+        font-size: rem(16);
+    }
+
+    &_middle {
+        font-size: rem(24);
+    }
+
+    &_large {
+        font-size: rem(32);
+    }
+
+    &_hidden {
+        width: 1px;
+        height: 1px;
+        margin: 0;
+        position: absolute;
+        overflow: hidden;
+        white-space: nowrap;
+        clip-path: inset(50%);
+    }
+}

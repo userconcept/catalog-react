@@ -1,0 +1,16 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.About {
+    padding: rem(32) rem(16) rem(40);
+    background-image: $gradient_bios_blue;
+    background-attachment: fixed;
+
+    &__Title {
+        margin: 0;
+    }
+
+    &__Text {
+        margin: rem(16) 0 0;
+    }
+}

@@ -1,0 +1,34 @@
+// Mixins:
+
+// Rems:
+
+@function rem($num) {
+    $strip-unit: calc($num / ($num * 0 + 1));
+    @return calc($strip-unit / 16 * 1rem);
+}
+
+// Media:
+
+@mixin media_landscape {
+    @media (orientation: landscape) {
+        @content;
+    }
+}
+
+@mixin media_450_min_width {
+    @media (min-width: 450px) {
+        @content;
+    }
+}
+
+@mixin media_600_min_width {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin media_1200_min_width {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}

@@ -1,0 +1,37 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Button {
+    border-width: rem(2) rem(1) rem(1);
+    border-style: solid;
+    border-color: $color_grey_light $color_grey_light $color_grey_middle;
+    padding: rem(8) rem(32) rem(9);
+    font-size: rem(16);
+    line-height: 1.5;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    color: $color_white;
+    background-color: $color_black;
+    box-shadow: inset 0 rem(-41) rem(20) rem(-20) $color_grey_middle,
+        0 0 0 rem(4) $color_black;
+    border-radius: rem(14);
+
+    @include media_1200_min_width {
+        transition: border-color $trans_sm, box-shadow $trans_sm;
+        cursor: pointer;
+    }
+
+    &:hover {
+
+        @include media_1200_min_width {
+            border-color: $color_black;
+            box-shadow: inset 0 rem(-41) rem(20) rem(-20) $color_black,
+                0 0 0 rem(4) $color_black;
+        }
+    }
+}
+
+a.Button {
+    text-decoration: none;
+}

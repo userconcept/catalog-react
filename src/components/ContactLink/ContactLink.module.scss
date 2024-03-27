@@ -1,0 +1,48 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.ContactLink {
+    padding-left: rem(24);
+    font-size: rem(20);
+    line-height: 1.6;
+    color: $color_white;
+    text-decoration: none;
+    position: relative;
+
+    @include media_1200_min_width {
+        transition: background-color $trans_sm;
+    }
+
+    &:hover {
+
+        @include media_1200_min_width {
+            background-color: $color_red_bios;
+        }
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+    }
+
+    &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &::after {
+        top: rem(8);
+        left: 0;
+        border-width: rem(9) 0 rem(9) rem(9);
+        border-style: solid;
+        border-color: transparent transparent transparent $color_white;
+    }
+
+    &__text {
+        position: relative;
+    }
+}

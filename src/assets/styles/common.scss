@@ -1,0 +1,72 @@
+// Common styles:
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $color_selection;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+html {
+    font-size: 100%;
+    font-size: 4.44444444444vw;
+    text-size-adjust: none;
+
+    @include media_450_min_width {
+        font-size: 125%;
+    }
+
+    @include media_1200_min_width {
+        font-size: 1.33333333333vw;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: rem(16);
+    line-height: 2;
+    font-weight: 400;
+    font-family: $font_normal;
+    color: $color_white;
+    text-rendering: optimizeLegibility;
+    background-color: $color_black;
+}
+
+// Sections height:
+
+section {
+    min-height: calc(100vh - rem(268));
+    min-height: calc(100svh - rem(268));
+
+    @include media_landscape {
+        min-height: calc(100vh - rem(136));
+        min-height: calc(100svh - rem(136));
+    }
+
+    @include media_1200_min_width {
+        min-height: calc(100vh - rem(268));
+        min-height: calc(100svh - rem(268));
+    }
+}
+
+// Footer to bottom:
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+#root > footer {
+    margin-top: auto;
+}

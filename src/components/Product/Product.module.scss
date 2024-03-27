@@ -1,0 +1,55 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Product {
+    padding: rem(32) rem(16) rem(40);
+    background-image: $gradient_bios_blue;
+    background-attachment: fixed;
+
+    &__Title {
+        margin: 0;
+    }
+
+    &__pictureWrapper {
+        margin-top: rem(32);
+        position: relative;
+
+        & + .Product__text {
+            margin-top: rem(8);
+        }
+    }
+
+    &__Picture {
+        display: block;
+        width: 100%;
+        height: auto;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__ButtonLike {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &__buttonsWrapper {
+        margin-top: rem(32);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__Button {
+        width: rem(240);
+
+        & + .Product__Button {
+            margin-top: rem(24);
+        }
+    }
+}

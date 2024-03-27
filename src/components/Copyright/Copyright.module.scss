@@ -1,0 +1,23 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Copyright {
+    display: flex;
+
+    &__symbol,
+    &__year {
+        padding: rem(12) 0;
+    }
+
+    &__link {
+        padding: rem(12) rem(16);
+        color: $color_white;
+
+        &:hover {
+
+            @include media_1200_min_width {
+                text-decoration: none;
+            }
+        }
+    }
+}

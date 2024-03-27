@@ -1,0 +1,52 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Footer {
+    padding-top: rem(20);
+    background-color: $color_black;
+    position: relative;
+
+    @include media_landscape {
+        padding-top: 0;
+    }
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        width: rem(40);
+        height: rem(42);
+        position: absolute;
+        top: rem(-40);
+        background-color: $color_black;
+    }
+
+    &::before {
+        left: 0;
+        clip-path: url(#clip-path-footer-left);
+    }
+
+    &::after {
+        right: 0;
+        clip-path: url(#clip-path-footer-right);
+    }
+
+    &__text {
+        font-size: rem(50);
+        line-height: 1.6;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+
+        @include media_1200_min_width {
+            padding: rem(11) 0 rem(23);
+            font-size: rem(178);
+            line-height: 1;
+            text-indent: rem(-9);
+        }
+    }
+
+    &__Copyright {
+        padding-left: rem(16);
+    }
+}

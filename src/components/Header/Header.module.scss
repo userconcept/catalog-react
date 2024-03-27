@@ -1,0 +1,29 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Header {
+    background-color: $color_black;
+    position: relative;
+    z-index: 1;
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        width: rem(40);
+        height: rem(42);
+        position: absolute;
+        bottom: rem(-40);
+        background-color: $color_black;
+    }
+
+    &::before {
+        left: 0;
+        clip-path: url(#clip-path-header-left);
+    }
+
+    &::after {
+        right: 0;
+        clip-path: url(#clip-path-header-right);
+    }
+}

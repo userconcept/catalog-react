@@ -1,0 +1,45 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.CatalogItem {
+    padding: 0;
+    position: relative;
+
+    @include media_600_min_width {
+        padding: rem(16);
+    }
+
+    &__link {
+        display: block;
+        color: $color_white;
+        text-decoration: none;
+    }
+
+    &__Picture {
+        display: block;
+        width: 100%;
+        height: auto;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__Title {
+        margin: rem(8) 0 0;
+    }
+
+    &__ButtonLike {
+        display: flex;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        @include media_600_min_width {
+            top: rem(16);
+            right: rem(16);
+        }
+    }
+}

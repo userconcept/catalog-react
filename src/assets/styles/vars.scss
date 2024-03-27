@@ -1,0 +1,37 @@
+// Vars:
+
+// Fonts:
+
+$font_normal: "Roboto Mono", sans-serif;
+$font_bold: "Roboto Mono", sans-serif;
+
+// Colors:
+
+$color_black: black;
+$color_white: white;
+$color_midnightblue: midnightblue;
+$color_blue_bios: #00a;
+$color_red: red;
+$color_red_bios: #a00;
+$color_goldendrod: goldenrod;
+
+$color_grey_light: #646464;
+$color_grey_middle: #444;
+
+$color_selection: $color_red_bios;
+
+$color_black_transparent_50: rgba(0, 0, 0, .5);
+
+// Gradients:
+
+$gradient_bios_blue: linear-gradient(
+    $color_midnightblue, $color_blue_bios
+);
+
+$gradient_button_black: linear-gradient(
+    $color_black, $color_grey_middle
+);
+
+// Transitions:
+
+$trans_sm: .1s ease;

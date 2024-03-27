@@ -1,0 +1,11 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.NotFound {
+    padding: rem(32) rem(16);
+    background-color: $color_goldendrod;
+
+    &__Title {
+        margin: 0;
+    }
+}

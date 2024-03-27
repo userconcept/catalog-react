@@ -1,0 +1,27 @@
+@import '../../assets/styles/mixins.scss';
+
+.CatalogList {
+    padding: 0;
+    list-style: none;
+
+    @include media_600_min_width {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    @include media_1200_min_width {
+        grid-template-columns: repeat(4, 25%);
+    }
+
+    &__CatalogItem {
+        margin: 0;
+
+        & + .CatalogList__CatalogItem {
+            margin-top: rem(32);
+
+            @include media_600_min_width {
+                margin-top: 0;
+            }
+        }
+    }
+}

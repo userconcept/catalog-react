@@ -1,0 +1,44 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Catalog {
+    padding: rem(32) rem(16) rem(40);
+    background-image: $gradient_bios_blue;
+    background-attachment: fixed;
+
+    &__Title {
+        margin: 0;
+    }
+
+    &__Filter {
+        margin-top: rem(12);
+    }
+
+    &__CatalogList {
+        margin: rem(40) 0 0;
+
+        @include media_600_min_width {
+            margin: rem(24) rem(-16) 0;
+        }
+    }
+
+    &__CatalogNotFound {
+        margin-top: rem(40);
+    }
+
+    &__CatalogLoading {
+        margin-top: rem(40);
+    }
+
+    &__Button {
+        display: inline-block;
+        vertical-align: top;
+        width: rem(240);
+        margin-top: rem(32);
+        text-align: left;
+
+        @include media_600_min_width {
+            margin-top: rem(16);
+        }
+    }
+}
