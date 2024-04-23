@@ -40,6 +40,12 @@ export const contact: ContactItem[] = [{
     text: 'GitHub'
 }, {
     id: 7,
+    href: 'https://opensea.io/userconcept',
+    rel: 'noopener noreferrer me',
+    target: '_blank',
+    text: 'OpenSea'
+}, {
+    id: 8,
     href: 'https://x.com/userconceptart',
     rel: 'noopener noreferrer me',
     target: '_blank',
