@@ -25,7 +25,7 @@
         "id": 0
       }
     },
-    "href": "https://opensea.io/collection/galactic-whispers-by-userconcept"
+    "href": "https://opensea.io/assets/ethereum/0x03862c837c39afb1fe2d33861a56587d7e823dda/1"
   },
   "liquid/CelestialDance": {
     "title": "Celestial Dance",
@@ -469,6 +469,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -481,7 +484,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x03862c837c39afb1fe2d33861a56587d7e823dda/2"
   },
   "liquid/CelestialSymphony": {
     "title": "Celestial Symphony",
@@ -1011,14 +1015,17 @@
       }
     }
   },
-  "smoke/NeuralDanceEchoes": {
-    "title": "Neural Dance Echoes",
+  "smoke/ComputingMelody": {
+    "title": "Computing Melody",
     "category": "smoke",
     "categories": {
       "popularity": 0
     },
     "currency": {
       "BTC": {
+        "id": 0
+      },
+      "ETH": {
         "id": 0
       },
       "USDT": {
@@ -1033,7 +1040,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0xfb0d78f7ea58fe70ffcc3ee5a19bc01e14d537a6/3"
   },
   "smoke/InterstellarTwilight": {
     "title": "Interstellar Twilight",
@@ -1107,8 +1115,8 @@
       }
     }
   },
-  "smoke/ComputingMelody": {
-    "title": "Computing Melody",
+  "smoke/NeuralDanceEchoes": {
+    "title": "Neural Dance Echoes",
     "category": "smoke",
     "categories": {
       "popularity": 0
@@ -1133,7 +1141,7 @@
         "id": 0
       }
     },
-    "href": "https://opensea.io/collection/computing-melody-by-userconcept"
+    "href": "https://opensea.io/assets/ethereum/0xfb0d78f7ea58fe70ffcc3ee5a19bc01e14d537a6/4"
   },
   "steel/EtherealPonderings": {
     "title": "Ethereal Ponderings",
@@ -1329,7 +1337,7 @@
         "id": 0
       }
     },
-    "href": "https://opensea.io/collection/theoretical-reflections-by-userconcept"
+    "href": "https://opensea.io/assets/ethereum/0x39babbd75bc918fd721a7f32f9cdb1f96500b027/1"
   },
   "steel/IntellectualContemplations": {
     "title": "Intellectual Contemplations",
@@ -1789,7 +1797,7 @@
         "id": 0
       }
     },
-    "href": "https://opensea.io/collection/philosophical-points-by-userconcept"
+    "href": "https://opensea.io/assets/ethereum/0x47d477986d22e84265e6c3e13562e8dd1cff197b/1"
   },
   "plastic/IntellectualDimensions": {
     "title": "Intellectual Dimensions",
