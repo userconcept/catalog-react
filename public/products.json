@@ -1445,6 +1445,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1457,7 +1460,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x39babbd75bc918fd721a7f32f9cdb1f96500b027/2"
   },
   "steel/LogicalMusings": {
     "title": "Logical Musings",
@@ -1833,6 +1837,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1845,7 +1852,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x47d477986d22e84265e6c3e13562e8dd1cff197b/2"
   },
   "plastic/AestheticSymmetry": {
     "title": "Aesthetic Symmetry",
