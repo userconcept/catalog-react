@@ -37,6 +37,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -49,7 +52,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x03862c837c39afb1fe2d33861a56587d7e823dda/3"
   },
   "liquid/StellarDreams": {
     "title": "Stellar Dreams",
@@ -61,6 +65,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -73,7 +80,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x03862c837c39afb1fe2d33861a56587d7e823dda/4"
   },
   "liquid/CosmicEchoes": {
     "title": "Cosmic Echoes",
@@ -85,6 +93,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -97,7 +108,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x03862c837c39afb1fe2d33861a56587d7e823dda/5"
   },
   "liquid/LunarSerenade": {
     "title": "Lunar Serenade",
@@ -929,6 +941,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -941,7 +956,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0xfb0d78f7ea58fe70ffcc3ee5a19bc01e14d537a6/5"
   },
   "smoke/NanoDreams": {
     "title": "Nano Dreams",
@@ -1001,6 +1017,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1013,7 +1032,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0xfb0d78f7ea58fe70ffcc3ee5a19bc01e14d537a6/6"
   },
   "smoke/ComputingMelody": {
     "title": "Computing Melody",
@@ -1077,6 +1097,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1089,7 +1112,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0xfb0d78f7ea58fe70ffcc3ee5a19bc01e14d537a6/7"
   },
   "smoke/SoftwareHaze": {
     "title": "Software Haze",
@@ -1249,6 +1273,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1261,7 +1288,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x39babbd75bc918fd721a7f32f9cdb1f96500b027/3"
   },
   "steel/ExistentialPonderings": {
     "title": "Existential Ponderings",
@@ -1273,6 +1301,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1285,7 +1316,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x39babbd75bc918fd721a7f32f9cdb1f96500b027/4"
   },
   "steel/EsotericMusings": {
     "title": "Esoteric Musings",
@@ -1473,6 +1505,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1485,7 +1520,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x39babbd75bc918fd721a7f32f9cdb1f96500b027/5"
   },
   "steel/SpiritualWhispers": {
     "title": "Spiritual Whispers",
@@ -1813,6 +1849,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -1825,7 +1864,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x47d477986d22e84265e6c3e13562e8dd1cff197b/3"
   },
   "plastic/MysticalIntersections": {
     "title": "Mystical Intersections",
@@ -2033,6 +2073,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -2045,7 +2088,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x47d477986d22e84265e6c3e13562e8dd1cff197b/4"
   },
   "plastic/HyperbolicTangents": {
     "title": "Hyperbolic Tangents",
@@ -2057,6 +2101,9 @@
       "BTC": {
         "id": 0
       },
+      "ETH": {
+        "id": 0
+      },
       "USDT": {
         "id": 0
       },
@@ -2069,7 +2116,8 @@
       "BSC": {
         "id": 0
       }
-    }
+    },
+    "href": "https://opensea.io/assets/ethereum/0x47d477986d22e84265e6c3e13562e8dd1cff197b/5"
   },
   "plastic/OrthogonalIntersections": {
     "title": "Orthogonal Intersections",
